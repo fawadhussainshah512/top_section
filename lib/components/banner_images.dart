@@ -19,7 +19,7 @@ class _BannerScreenState extends State<BannerScreen> {
   Widget build(BuildContext context) {
     return CarouselSlider(
       options: CarouselOptions(
-        height: 250,
+        height: 220,
         viewportFraction: 1.0,
         autoPlay: true,
         autoPlayInterval: const Duration(seconds: 3),
